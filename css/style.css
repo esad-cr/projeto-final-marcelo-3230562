@@ -99,7 +99,7 @@ iframe, video {
   --secondary-color: #ffe0cc;
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  /*--body-font: "Montserrat", sans-serif;*/
+  /*--body-font: "Roboto", sans-serif;*/
   /*--normal-font-size: .938rem;*/
 
   /*========== Font weight ==========*/
@@ -112,6 +112,19 @@ iframe, video {
   --z-fixed: 100;
 }
 
+/*****************  Estilos Base ******************/
+
+body{
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  color: var(--white-color);
+  background-color: var(--black-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: outfit, sans-serif;
+}
+
 p {
   font-size: 16px;
 }
@@ -122,6 +135,10 @@ small {
 
 strong {
   font-weight: var(--font-semi-bold);
+}
+
+ul {
+  list-style: none;
 }
 
 a {
