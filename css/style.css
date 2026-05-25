@@ -85,6 +85,32 @@ iframe, video {
 *** O CÓDIGO COMEÇA DEPOIS DAQUI ***
 ***************************************************
 ***************************************************/
+/***************** VARIABLES CSS ******************/
+:root {
+  --header-height: 3.2rem;
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --black-color: #0e0e0e;
+  --black-color-light: #161616;
+  --black-color-lighten: #2a2a2a;
+  --white-color: #e8e0d0;
+  --body-color: #7a7060;
+  --primary-color: #ff5f1f;
+  --secondary-color: #ffe0cc;
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  /*--body-font: "Montserrat", sans-serif;*/
+  /*--normal-font-size: .938rem;*/
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-semi-bold: 600;
+  --font-bold: 800;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
 
 p {
   font-size: 16px;
