@@ -86,6 +86,15 @@ iframe, video {
 ***************************************************
 ***************************************************/
 
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+a:hover, a:active, a.active {
+  color: var(--primary-color);  
+}
+
 /*********************************************
 **** Definição da tipografia para mobile *****
 *********************************************/
