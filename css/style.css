@@ -107,6 +107,37 @@ a:hover, a:active, a.active {
   color: var(--primary-color);  
 }
 
+/************************************
+******** largura dos elemento *******
+******** que compoem o body *********
+*************************************/
+/* utilizando tags */
+/*
+body header, body main, body footer {
+ width: 100%;
+ max-width: 1680px;
+ margin: 0 auto;
+ padding: 0 16px;
+}
+*/
+/* utilizando id */
+/*
+#topHeader, #mainContent, #mainFooter {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+*/
+/* utilizando classes */
+
+.pageWidth {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
 /*********************************************
 **** Definição da tipografia para mobile *****
 *********************************************/
