@@ -120,3 +120,35 @@ h5, .h5{
 h6, .h6{
   font-size: 1.2rem;
 }
+
+/*********************************************
+**** Definição da tipografia para desktop *****
+*********************************************/
+@media (min-width: 992px) {
+  h1, .h1{
+    font-size: 4rem;
+    font-weight: 700;
+   letter-spacing: 0rem;
+   line-height: 1.2;
+  }
+
+  h2, .h2{
+    font-size: 3rem;
+  }
+
+  h3, .h3{
+    font-size: 1.5rem;
+  }
+
+  h4, .h4{
+    font-size: 1rem;
+  }
+
+  h5, .h5{
+    font-size: 1.9999rem;
+  }
+
+  h6, .h6{
+    font-size: 1.414rem;
+  }
+}
