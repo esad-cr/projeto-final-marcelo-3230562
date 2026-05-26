@@ -276,3 +276,26 @@ h6, .h6{
 .nav__close {
   color: var(--white-color);
 }
+
+.navAction {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  #headerLogo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+}
+
+#headerLogo a{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+#headerLogo img {
+  width: 3rem;
+}
