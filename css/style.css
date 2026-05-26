@@ -150,6 +150,22 @@ a:hover, a:active, a.active {
   color: var(--primary-color);  
 }
 
+
+/**** espaçar elementos ****/
+.space-S{
+  height: 30px;
+}
+.space-M{
+  height: 60px;
+}
+.space-L{
+  height: 90px;
+}
+.space-XL{
+  height: 120px;
+}
+
+
 /************************************
 ******** largura dos elemento *******
 ******** que compoem o body *********
