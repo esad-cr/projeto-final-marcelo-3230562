@@ -405,3 +405,26 @@ h6, .h6{
     background-color: transparent;
   }
 }
+
+/****************************************
+************* mainContent ***************
+****************************************/
+
+#mainContent {
+  margin-top:var(--header-height)!important;
+}
+
+@media screen and (min-width: 992px) {
+  #mainContent {
+    margin-top:calc(var(--header-height)+2rem)
+  }
+}
+
+/****************************************
+************* mainFooter ***************
+****************************************/
+
+#mainFooter {
+  padding: 40px;
+  text-align: center;
+}
