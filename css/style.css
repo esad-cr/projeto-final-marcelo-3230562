@@ -263,3 +263,16 @@ h6, .h6{
   box-shadow: 0 0.5px 10px #ff5f1f;
   z-index: var(--z-fixed);
 }
+
+#mainMenu {
+  height: var(--header-height);
+  width: 100%;
+  max-width:1680px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.nav__burger, 
+.nav__close {
+  color: var(--white-color);
+}
