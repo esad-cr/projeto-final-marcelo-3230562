@@ -569,10 +569,11 @@ h6, .h6{
 
 .profile-layout {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 4rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
   align-items: start;
-} 
+  padding-right: 5rem;
+}
 
 .profile-photo-block {
   position: relative;
@@ -584,4 +585,44 @@ h6, .h6{
   object-fit: cover;
   display: block;
   border: 1px solid var(--black-color-lighten);
+}
+
+.profile-bio p {
+  color: var(--white-color);
+}
+ 
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+}
+ 
+.skill-badge {
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: var(--black-color-light);
+  border: 1px solid var(--black-color-lighten);
+  padding: 0.3rem 0.7rem;
+  color: var(--secondary-color);
+}
+ 
+.btn-cv {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: var(--primary-color);
+  color: var(--black-color);
+  padding: 0.75rem 1.75rem;
+  transition: opacity 0.2s, transform 0.2s;
+}
+ 
+.btn-cv:hover {
+  opacity: 0.85;
+  transform: translateX(4px);
+  color: var(--black-color);
 }
