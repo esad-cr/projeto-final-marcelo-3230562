@@ -465,7 +465,7 @@ h6, .h6{
 
 .card__data {
   width: 280px;
-  background-color: var(--white-color);
+  background-color: var(--body-color);
   padding: 1.5rem 2rem;
   box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
   border-radius: 1rem;
@@ -480,12 +480,13 @@ h6, .h6{
 
 .card__description {
   display: block;
+  color: var(--white-color);
   margin-bottom: .25rem;
 }
 
 .card__title {
   font-weight: 500;
-  color: var(--secondary-color);
+  color: var(--white-color);
   margin-bottom: .75rem;
 }
 
@@ -563,4 +564,24 @@ h6, .h6{
 #mainFooter {
   padding: 40px;
   text-align: center;
+}
+
+
+.profile-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+  align-items: start;
+} 
+
+.profile-photo-block {
+  position: relative;
+}
+ 
+.profile-photo {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--black-color-lighten);
 }
